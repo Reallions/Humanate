@@ -3,7 +3,7 @@ import scraper as sc
 import ai as ai
 
 # Streamlit app configuration
-st.title("Facebook Post Generator")
+st.title("Humanate: Facebook Post Generator")
 st.sidebar.header("Configuration")
 
 # Input section
