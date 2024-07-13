@@ -1,7 +1,5 @@
 import openai
 
-openai.api_key = 'YOUR_OPENAI_API_KEY'
-
 def blog_post_to_bullet_points(content):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
